@@ -1,5 +1,7 @@
 export default function Contact() {
     return(
-        <p>contact</p>
+        <section id="contact" className="py-96">
+        <p>conac</p>
+        </section>
     )
 }

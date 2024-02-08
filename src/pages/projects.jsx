@@ -1,5 +1,7 @@
 export default function Projects() {
     return(
-        <p>porejct</p>
+        <section id="projects">
+        <p>project</p>
+        </section>
     )
 }

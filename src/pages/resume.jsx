@@ -1,5 +1,6 @@
 export default function Resume() {
     return(
-        <p>resume</p>
-    )
+        <section id="resume">
+        <p>reaume</p>
+        </section>    )
 }

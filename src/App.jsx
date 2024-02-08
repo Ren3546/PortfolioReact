@@ -8,23 +8,18 @@ import Projects from './pages/projects'
 import About from './pages/aboutme'
 import Contact from './pages/contact'
 import Resume from './pages/resume'
+import Footer from './components/footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Router>
-        <div>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
-          </Routes> 
-        </div>
-      </Router>
+    <Navbar />
+    <About />
+    <Projects />
+    <Contact />
+    <Resume />
+    <Footer />
     </>
   )
 }
