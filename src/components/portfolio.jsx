@@ -4,8 +4,8 @@ import password from '../assets/password1.png';
 import weather from '../assets/weather.png';
 import noteApp from '../assets/noteApp.jpg';
 import dog from '../assets/dog.png';
-import employee from '../assets/employee.png';
-import social from '../assets/social.png';
+import employee from '../assets/employee.jpg';
+import social from '../assets/social.jpg';
 
 
 export default function Portfolio() {
