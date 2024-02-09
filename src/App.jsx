@@ -1,10 +1,10 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from './components/navbar'
-import Projects from './pages/projects'
-import About from './pages/aboutme'
-import Contact from './pages/contact'
-import Resume from './pages/resume'
+import Navbar from './components/header'
+import Portfolio from './components/portfolio'
+import About from './components/aboutme'
+import Contact from './components/contact'
+import Resume from './components/resume'
 import Footer from './components/footer'
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
           </Routes> 
