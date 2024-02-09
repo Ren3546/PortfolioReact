@@ -1,11 +1,11 @@
 import React from 'react';
 import Projects from './projects';
 import password from '../assets/password1.png';
-import weather from '../assets/weather.PNG';
-import note from '../assets/note.PNG';
-import dog from '../assets/dog.PNG';
-import employee from '../assets/employee.PNG';
-import social from '../assets/social.PNG';
+import weather from '../assets/weather.png';
+import note from '../assets/note.png';
+import dog from '../assets/dog.png';
+import employee from '../assets/employee.png';
+import social from '../assets/social.png';
 
 
 export default function Portfolio() {
